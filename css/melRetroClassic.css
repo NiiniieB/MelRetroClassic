@@ -3,9 +3,9 @@ body{
 }
 /*Section about US*/
 .social_icons {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
+    position: relative;
+    left: 994px;
+    top: 62px;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
