@@ -1,15 +1,33 @@
 body{
     margin: 0;
 }
+
 /*Section about US*/
-.social_icons {
-    position: relative;
-    left: 994px;
-    top: 62px;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
+h1{
+    text-align: center;
+}
+
+.container_about{
     display: flex;
+    justify-content: center;
+
+}
+.about h3{
+    text-align: center;
+}
+.about img{
+    padding: 5%;
+    margin-left: 17%;
+}
+.about p{
+    text-align: justify;
+    padding: 9%;
+}
+.social_icons {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
     
     }
     .social_icons  li{
