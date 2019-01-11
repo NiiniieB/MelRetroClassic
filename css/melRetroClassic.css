@@ -1,7 +1,5 @@
-body{
-    margin: 0;
-    background-image: url("http://image.noelshack.com/fichiers/2019/02/5/1547199069-video-game-controller-buttons-4460x4460.jpg");
-}
+
+
 /*Section about US*/
 h1{
     text-align: center;
@@ -37,21 +35,21 @@ footer div{
     display: flex;
     justify-content: center;
     padding-top: 2%;
-
-}
-.social_icons  li{
+    
+    }
+    .social_icons  li{
     list-style: none;
     margin: 0 40px;
-
-}
-.social_icons  li .fa{
+    
+    }
+    .social_icons  li .fa{
     font-size: 40px;
     color: #262626;
     line-height: 80px;
     transition: .5s;
-
-}
-.social_icons  li a{
+    
+    }
+    .social_icons  li a{
     position: relative;
     display: block;
     width: 40px;
@@ -61,8 +59,8 @@ footer div{
     transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
     transition: .5s;
     box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
-}
-.social_icons  li a::before{
+    }
+    .social_icons  li a::before{
     content: "";
     position: absolute;
     top: 10px;
@@ -72,8 +70,8 @@ footer div{
     background: #b1b1b1;
     transition: .5s;
     transform: rotate(0deg) skewY(-45deg);
-}
-.social_icons  li a::after{
+    }
+    .social_icons  li a::after{
     content: "";
     position: absolute;
     top: 80px;
@@ -83,46 +81,46 @@ footer div{
     background: #b1b1b1;
     transition: .5s;
     transform: rotate(0deg) skewX(-45deg);
-}
-.social_icons  li a:hover{
+    }
+    .social_icons  li a:hover{
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
     box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
-}
-.social_icons  li:hover .fa{
+    }
+    .social_icons  li:hover .fa{
     color: #fff;
-}
-.social_icons  li a:hover{
+    }
+    .social_icons  li a:hover{
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
     box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
-}
-.social_icons  li:hover:nth-child(1) a{
+    }
+    .social_icons  li:hover:nth-child(1) a{
     background: #dd4b39;
-}
-
-.social_icons  li:hover:nth-child(1) a:before{
+    }
+    
+    .social_icons  li:hover:nth-child(1) a:before{
     background: #c13929;
-}
-.social_icons  li:hover:nth-child(1) a:after{
+    }
+    .social_icons  li:hover:nth-child(1) a:after{
     background: #e83322;
-}
-.social_icons  li:hover:nth-child(2) a{
+    }
+    .social_icons  li:hover:nth-child(2) a{
     background: #dd4b39;
-}
-.social_icons  li:hover:nth-child(2) a:before{
+    }
+    .social_icons  li:hover:nth-child(2) a:before{
     background: #c13929;
-}
-.social_icons  li:hover:nth-child(2) a:after{
+    }
+    .social_icons  li:hover:nth-child(2) a:after{
     background: #e83322;
-}
+    }
 
-.social_icons  li:hover:nth-child(3) a{
+    .social_icons  li:hover:nth-child(3) a{
     background: #dd4b39;
-}
-
-.social_icons  li:hover:nth-child(3) a:before{
+    }
+    
+    .social_icons  li:hover:nth-child(3) a:before{
     background: #c13929;
-}
-.social_icons  li:hover:nth-child(3) a:after{
+    }
+    .social_icons  li:hover:nth-child(3) a:after{
     background: #e83322;
-}
+    }
 /*End of section about US*/
