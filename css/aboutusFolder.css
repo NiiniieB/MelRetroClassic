@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    
 }
 
 /*Section about US*/
@@ -126,3 +127,15 @@ footer div{
     background: #e83322;
 }
 /*End of section about US*/
+
+/* debut css contact*/
+.card-deck {
+    margin: auto ;
+    max-width: 100%;
+}
+
+.card-img-top {
+    max-width: 50%;
+    max-height: 60% ;
+    margin : auto ;
+}
