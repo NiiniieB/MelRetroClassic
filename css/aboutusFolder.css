@@ -34,6 +34,10 @@ h1{
 .about p{
     text-align: justify;
     padding: 9%;
+  
+}
+.about p{
+    background-image: url(http://image.noelshack.com/fichiers/2019/02/5/1547217690-speech-bubble-145978-640.png);
 }
 /*footer*/
 footer{
