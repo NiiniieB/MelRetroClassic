@@ -17,17 +17,20 @@ body {
 a.navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    margin-top: 0.5%;
+    margin-left: 0.4%;
     font-size: 2em;
     line-height: 20px;
-    text-decoration: none;
-    color: black;
+    text-shadow: 3px 3px 3px black;
+    color: #78665d;
 
 }
 
 nav.main-navigation {
     position: relative;
     background-color: #b8ada6;
+    border: 3px #78665d ridge;
+    text-shadow: 3px 3px 3px #78665d ridge;
 }
 
 nav.main-navigation ul.nav-list {
@@ -42,18 +45,18 @@ nav.main-navigation ul.nav-list {
 .nav-list li.nav-list-item {
     display: inline-block;
     line-height: 40px;
-    margin-left: 30px;
-    margin-top: 15px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-left: 5%;
 }
 
 a.nav-link {
-    text-decoration: none;
     font-size: 18px;
-    font-family: sans-serif;
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    color: #404040;
+    color: black;
+    text-align: center;
 }
 
 @keyframes FadeIn {
