@@ -124,3 +124,11 @@ footer div{
     background: #e83322;
     }
 /*End of section about US*/
+
+/*Titres carrousel*/
+.carousel-caption {
+    bottom: 5rem;
+}
+.carousel-caption h5 {
+ color: black;
+}
