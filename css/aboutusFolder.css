@@ -1,20 +1,63 @@
 @font-face {
-    font-family: 'Gputeks-Bold';
-    src: url('/css/Gputeks-Bold.ttf');
-    src: url('/css/Gputeks-Regular.ttf');
+    font-family: Gputeks-Regular;
+    src: url('../police/Gputeks-Regular.ttf');
+    src: url('../police/Gputeks-Bold.ttf');
 }
 body{
+    font-family: Gputeks-Regular;
     margin: 0;
-    background-image: url("http://image.noelshack.com/fichiers/2019/02/5/1547212860-wall-2933017-1920.jpg")
+    background-image: url("../image/background.jpg")
 }
 /*Section index*/
 .carousel-inner{
-    margin-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 5%;
+    width: 50%;
+    height: 0%;
+    margin-left: 25%;
+    margin-top: 1%;
 }
 
+/*bobine*/
+.slider {
+    position: relative;
+    margin-top: 1%;
+    width: 100%;
+    top: calc(50% - 97.25px);
+    overflow: hidden;
+  }
+  .slider .slider-row {
+    width: 2956px;
+    height: 194.5px;
+    background-image: url(http://image.noelshack.com/fichiers/2019/02/6/1547298927-bobine.png);
+    background-size: 2956px 194.5px;
+    -webkit-animation: slide 50s linear infinite;
+            animation: slide 50s linear infinite;
+  }
+  
+  @-webkit-keyframes slide {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -2956px;
+    }
+  }
+  
+  @keyframes slide {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -2956px;
+    }
+  }
+  
+
 /*Section about US*/
+.about{
+    background-image: url(../image/bubble.png);
+    background-repeat: no-repeat;
+    margin-top: 8%;
+}
 h1{
     text-align: center;
 }
@@ -28,19 +71,17 @@ h1{
     text-align: center;
 }
 .about img{
-    padding: 5%;
+    padding: 0%;
     margin-left: 17%;
 }
 .about p{
     text-align: justify;
-    padding: 9%;
+    padding: 5%;
+    padding-bottom: 10%;
+  
 }
 /*footer*/
-footer{
-    background-color: dimgray;
-    width: 100%;
-    height: 50%;
-}
+
 footer div{
     text-align: center;
     padding-top: 0%;
@@ -50,7 +91,7 @@ footer div{
 
     display: flex;
     justify-content: center;
-    padding-top: 0%;
+    padding-bottom: 1%;
 
 }
 .social_icons  li{
