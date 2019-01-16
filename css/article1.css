@@ -1,10 +1,11 @@
+/*Article 1 CSS*/
 body {
     margin: 0;
     padding: 0;
 }
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-body {
+body .container article {
     background: #1e5799;
     /* Old browsers */
     background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
@@ -17,11 +18,11 @@ body {
     /* IE6-9 */
 }
 
-img {
+.container article img {
     width: 9rem;
 }
 
-p {
+.container article p {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
     background: rgb(240, 249, 255);
     /* Old browsers */
