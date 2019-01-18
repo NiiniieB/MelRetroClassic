@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <!-- Required meta tags -->
@@ -8,7 +8,7 @@
 
 
   <!-- CSS Article1 -->
-  <link rel="stylesheet" href="css/article1.css">
+  <link rel="stylesheet" href="css/article.css">
   <!--test-->
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <!-- Bootstrap CSS -->
@@ -23,71 +23,218 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Mel Retro Classic</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about_us.html">About us </a>
-          </li>
-        </ul>
+    <nav class="main-navigation">
+      <div class="navbar-header animated fadeInUp">
+        <a class="navbar-brand" href="#">Mel Retro Classic</a>
       </div>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="index.html" class="nav-link">Accueil</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="about_us.html" class="nav-link">A propos</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
     </nav>
+    <!--Navbar responsive-->
+    <div class="title-site">
+      <h1>Mel Retro Classic</h1>
+    </div>
+    <div class="left">
+      <div class="item">
+        <i class="fas fa fa-bars"></i>Mel Retro Classic
+      </div>
+      <div class="item active">
+        <i class="fas fa fa-home"></i>
+        <a href="index.html">Accueil</a>
+
+      </div>
+      <div class="item">
+        <i class="fas fa fa-users"></i>
+        <a href="about_us.html">A propos</a>
+      </div>
+      <div class="item">
+        <i class="fas fa fa-address-book"></i>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <!--/.Navbar-->
   </header>
+
   <div class="container">
     <article>
       <h1>Playstation Classic</h1>
       <p>
-        <img src="image/signal-3655575_1280.png" alt="Controller" class="rounded float-left">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis elit et cursus feugiat. Etiam
-        elementum accumsan diam et tristique. Ut sagittis magna non turpis finibus, id consequat ipsum mattis. Integer
-        felis massa, porta eu mollis quis, elementum et diam. Donec eu quam diam. Proin elementum iaculis urna, a
-        dapibus augue bibendum non. Sed consectetur augue vel venenatis euismod. Phasellus nulla massa, bibendum a
-        lobortis eget, sodales porttitor odio. Vivamus lacus lacus, laoreet id metus quis, hendrerit euismod est. Donec
-        venenatis vel ex eu dapibus. Integer dignissim vel libero cursus faucibus. Nam eget tincidunt ipsum.
-        Suspendisse tempor mi vel condimentum fringilla.
+          <img src="image/playstation-2777170_1280.png" alt="Controller" class="rounded float-left">
+         - La PlayStation Classic (プレイステーション クラシック, Purei Sutēshon Kurashikku) est une console de jeux vidéo dédiée
+        développée par Sony Interactive Entertainment sur le modèle de la première console du constructeur, la
+        PlayStation, sortie en 1994. Sa commercialisation est prévue pour le 3 décembre 2018. Ce qui correspond au 24e
+        anniversaire du PlayStation original au Japon.
+
+        À l'instar de la NES Mini et de la Super NES Mini3, la PlayStation Classic contient plusieurs jeux
+        préinstallés. Elle est 80 % plus petite que son modèle en termes de volume, dispose d'une sortie vidéo HDMI,
+        fonctionne avec deux manettes PlayStation de type standard reliées par USB et est alimentée via un port micro
+        USB.
       </p>
+      <h4>Caractéristiques techniques</h4>
+      <ul>
+        <li>Processeur : ARM SoC MediaTek 8167A Quad Core Cortex-A35 cadencé à 1,5 GHz (plus puissant que celui de la
+          Super NES classic). À titre comparatif, celui des consoles mini de Nintendo, est fourni par Allwinner</li>
+        <li>Processeur graphique : PowerVR GE8300 (Mali-400 MP pour la Super NES classic).</li>
+        <li>RAM : 1 Go de mémoire Samsung type DDR3 à 1866Mhz (256Mo de DDR3 sur Super NES classic).</li>
+        <li>Processeur audio : MediaTek MT6392A.</li>
+        <li>Carte mère : Sony LM-11 (1-984-020-11).</li>
+        <li>16 Go de mémoire flash (512 MB sur la Super NES classic).</li>
+        <li>Dimensions : 149 x 33 x 105 mm.</li>
+        <li>Poids : 170 g.</li>
+        <li>Alimentation : 5V 1A micro USB.</li>
+        <li>Affichage : 720p et 480p via HDMI.</li>
+      </ul>
+      <h4>Jeux pré-installés</h4>
       <p>
-        <img src="image/playstation-2777170_1280.png" alt="Controller" class="rounded float-right">
-        Curabitur nec est et lorem aliquet scelerisque. Nullam in lacinia purus. Integer pretium massa at tempus
-        congue. Pellentesque nec erat scelerisque, convallis nisl vitae, aliquet nunc. Integer neque dolor, ultricies
-        ac metus vel, mollis consequat sapien. Nunc vulputate tortor in dui condimentum gravida. Ut pulvinar velit at
-        posuere lacinia. Etiam condimentum ligula eu ex vulputate, nec dapibus nisl mollis. Interdum et malesuada fames
-        ac ante ipsum primis in faucibus. Nam hendrerit, eros a rhoncus ultricies, dolor neque fringilla velit, vitae
-        pellentesque sapien lacus non nisi. Suspendisse et mi faucibus, tincidunt neque at, scelerisque nisi. Sed
-        scelerisque pellentesque felis, a vehicula leo tempus nec. Proin neque libero, ultricies id lorem ac, rutrum
-        suscipit dui. Donec id justo non dolor maximus molestie.
+        <img src="image/signal-3655575_1280.png" alt="Controller" class="rounded float-left">
+        - Parmi les 20 jeux pré-installés dans la machine, seuls cinq d'entre eux sont annoncé lors de la présentation
+        de la console. Ce n'est qu'un mois plus tard, soit le 29 octobre 2018, que les 15 autres jeux sont dévoilés.
+        En voici la liste :
       </p>
+      <table class="table table-striped">
+
+        <thead>
+          <tr>
+            <th scope="col">Titre</th>
+            <th scope="col">Année</th>
+            <th scope="col">Editeur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Battle Arena Toshinden</td>
+            <td>1995</td>
+            <td>Takara, SCEA</td>
+          </tr>
+          <tr>
+            <td>Cool Boarders 2</td>
+            <td>1998</td>
+            <td>Sony Computer Entertainment</td>
+          </tr>
+          <tr>
+            <td>Destruction Derby</td>
+            <td>1995</td>
+            <td>Psygnosis</td>
+          </tr>
+          <tr>
+            <td>Final Fantasy VII</td>
+            <td>1997</td>
+            <td>Square</td>
+          </tr>
+          <tr>
+            <td>Grand Theft Auto</td>
+            <td>1998</td>
+            <td>Take-Two Interactive</td>
+          </tr>
+          <tr>
+            <td>Kurushi</td>
+            <td>1997</td>
+            <td>Sony Computer Entertainment</td>
+          </tr>
+          <tr>
+            <td>Jumping Flash</td>
+            <td>1995</td>
+            <td>Sony Computer Entertainment</td>
+          </tr>
+          <tr>
+            <td>Metal Gear Solid</td>
+            <td>1999</td>
+            <td>Konami</td>
+          </tr>
+          <tr>
+            <td>Mr. Driller</td>
+            <td>2000</td>
+            <td>Namco</td>
+          </tr>
+          <tr>
+            <td>Oddworld : L'Odyssée d'Abe</td>
+            <td>1997</td>
+            <td>GT Interactive</td>
+          </tr>
+          <tr>
+            <td>Rayman</td>
+            <td>1995</td>
+            <td>Ubisoft</td>
+          </tr>
+          <tr>
+            <td>Resident Evil</td>
+            <td>1996</td>
+            <td>Capcom</td>
+          </tr>
+          <tr>
+            <td>Revelations: Persona</td>
+            <td>1996</td>
+            <td>Atlus</td>
+          </tr>
+          <tr>
+            <td>R4: Ridge Racer Type 4</td>
+            <td>1999</td>
+            <td>Namco</td>
+          </tr>
+          <tr>
+            <td>Super Puzzle Fighter II Turbo </td>
+            <td>1997</td>
+            <td>Capcom</td>
+          </tr>
+          <tr>
+            <td>Syphon Filter </td>
+            <td>1999</td>
+            <td>989 Studios, Sony Computer Entertainment</td>
+          </tr>
+          <tr>
+            <td>Tekken 3</td>
+            <td>1998</td>
+            <td>Namco</td>
+          </tr>
+          <tr>
+            <td>Tom Clancy's Rainbow Six</td>
+            <td>1999</td>
+            <td>Take Two Interactive</td>
+          </tr>
+          <tr>
+            <td>Twisted Metal</td>
+            <td>1996</td>
+            <td>Sony Computer Entertainment</td>
+          </tr>
+          <tr>
+            <td>Wild Arms</td>
+            <td>1998</td>
+            <td>Sony Computer Entertainment</td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>Accueil</h4>
       <p>
         <img src="image/game-3432315_1280.png" alt="Controller" class="rounded float-left">
-        Sed porttitor, metus non dapibus sollicitudin, nulla ipsum posuere odio, id finibus arcu turpis et neque. In
-        hac habitasse platea dictumst. Morbi et nisi dui. Aliquam varius, magna ut ultrices rhoncus, nulla turpis
-        suscipit augue, aliquam vehicula metus nisl sit amet purus. Duis risus ex, pharetra sit amet odio non, dictum
-        volutpat libero. Donec vitae pharetra orci. Maecenas pellentesque sodales turpis, in gravida eros sodales at.
-        Morbi congue, velit et interdum vestibulum, mi felis consectetur orci, ac sodales turpis metus ultricies odio.
-        Etiam tincidunt neque vitae enim consectetur congue. Vivamus ante nulla, lobortis a molestie vitae, venenatis
-        id elit. Nulla posuere dignissim rutrum. Maecenas euismod id lectus vel ultricies. Vestibulum accumsan maximus
-        dui, in lacinia ipsum dapibus in. Sed augue risus, dapibus quis rhoncus sit amet, semper nec mi.
+        - Tristan Ogilvie d'IGN lui a attribué une note de 5,5 sur 10. Il a, par exemple, critiqué l'interface
+        utilisateur de base et le manque de titres populaires de la console, comme Tomb Raider et Crash Bandicoot. Il a
+        aussi souligné que « près de la moitié des jeux inclus dans la bibliothèque PlayStation Classic sont des
+        versions PAL », ce qui a causé des problèmes de cohérence dans les régions NTSC10. Cependant, il est possible
+        de faire marcher les jeux PAL en mode NTSC à l'aide d'un menu caché. Ceux-ci rouleront ainsi à vitesse normale.
+        Il suffit de brancher un clavier USB dans la console pour y accéder.
+
+        Au Japon, la console s'est écoulé à plus de 120 000 unités durant sa première semaine de vente, ce qui est
+        beaucoup moins que ce qu'a fait la Nintendo Classic Mini: Super Famicom dès les quatre premières journées de sa
+        commercialisation. Selon Gamekult, ces ventes ne représentent ni une catastrophe ni un triomphe pour Sony et
+        s'expliquent par un plus grand intérêt pour les consoles de Nintendo dans ce pays.
       </p>
     </article>
   </div>
 
 
 
-  <!-- <footer>
+  <footer>
     <ul class="social_icons">
       <li><a href="https://github.com/NiiniieB" title=Niiniie><i class="fa fa-github" aria-hidden="true"></i></a></li>
       <li><a href="https://github.com/Luteces" title=Eyal><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -95,7 +242,7 @@
     </ul>
     <div>Copyright your website 2018</div>
 
-  </footer> -->
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
