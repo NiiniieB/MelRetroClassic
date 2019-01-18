@@ -22,3 +22,10 @@ body .container article {
 .container article img {
     width: 9rem;
 }
+/*responsive*/
+@media all and (max-device-width: 480px)
+{
+article{
+    margin-top: 35%;
+}
+}
