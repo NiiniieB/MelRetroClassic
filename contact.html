@@ -40,9 +40,6 @@
 
 </nav>
   <!--Navbar responsive-->
-  <div class="title-site">
-      <h1>Mel Retro Classic</h1>
-    </div>
       <div class="left">
         <div class="item">
             <i class="fas fa fa-bars"></i>Mel Retro Classic
@@ -64,31 +61,28 @@
     
     <!--/.Navbar-->
   </header>
-
+<!--contact-->
   <h1 class="contact">Contact</h1>
 
   <div class="card-deck">
     <div class="card">
-      <img class="card-img-top" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/50127194_107410843682454_7119480511612846080_n.jpg?_nc_cat=100&_nc_ht=scontent-mrs1-1.xx&oh=2338214170b352a3ca98c784ca3eb402&oe=5CD2BF5E"
-        alt="Card image cap">
+      <img class="card-img-top" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/50127194_107410843682454_7119480511612846080_n.jpg?_nc_cat=100&_nc_ht=scontent-mrs1-1.xx&oh=2338214170b352a3ca98c784ca3eb402&oe=5CD2BF5E" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Adresse</h5>
-        <p class="card-text">Toulouserie !</p>
-
+        <p class="card-text">La Toulouserie n'est jamais fini !</p>
+        
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/49717386_107442647012607_5044865965951549440_n.jpg?_nc_cat=101&_nc_ht=scontent-mrs1-1.xx&oh=d8ce028efa61a06d4319f734094db2e7&oe=5CC4D63E"
-        alt="Card image cap">
+      <img class="card-img-top" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/49717386_107442647012607_5044865965951549440_n.jpg?_nc_cat=101&_nc_ht=scontent-mrs1-1.xx&oh=d8ce028efa61a06d4319f734094db2e7&oe=5CC4D63E" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Téléphone</h5>
         <p class="card-text">0605040302</p>
-
+        
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/49686388_107417713681767_1213432246573203456_n.jpg?_nc_cat=101&_nc_ht=scontent-mrs1-1.xx&oh=1eddd3a928882b26edba9d1c8310e9d3&oe=5CC07BF1"
-        alt="Card image cap">
+      <img class="card-img-top" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/49686388_107417713681767_1213432246573203456_n.jpg?_nc_cat=101&_nc_ht=scontent-mrs1-1.xx&oh=1eddd3a928882b26edba9d1c8310e9d3&oe=5CC07BF1" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Email</h5>
         <p class="card-text email">Meltretroclassic@gmail.com</p>
@@ -96,12 +90,28 @@
       </div>
     </div>
   </div>
+  <div class="cadre">
+  <form action="toto" method="post" >
 
-  <label for="Email">Your Email</label>
-  <input type="text" name="Email" id="Email">
-  <label for="message">Message</label>
-  <textarea rows="5" cols="100" name="message" id="message">The text </textarea>
-  <input type="submit" value="Send" />
+    <fieldset>
+     <legend>Vos coordonnées :</legend>
+      <label for="email">Votre email :</label>
+       <input type="email" name="email" size="30" 
+       maxlength="60" value="email" id="email" />
+    
+      <label for="comments">Vos commentaires :</label>
+       <textarea name="comments" id="comments" cols="80" rows="5">
+       </textarea>
+    </fieldset>
+    
+     <div class="envoye">
+     <input type="submit" value="Envoyer" />
+     </div>
+     
+     </p>
+     </form>
+  </div>
+  <!--end contact-->
   <footer>
     <ul class="social_icons">
       <li><a href="https://github.com/NiiniieB" title=Niiniie><i class="fa fa-github" aria-hidden="true"></i></a></li>
