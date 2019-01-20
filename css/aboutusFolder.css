@@ -229,11 +229,10 @@ a.nav-link {
 
 /*Section about US*/
 .about{
-    background-image: url(../image/bubble.png);
-    background-repeat: no-repeat;
-    background-position: 35% 35%;
-    padding: 5%;
-
+    border: 5px groove #78665d;
+    border-radius: 100%;
+    background-color: #b8ada6;
+    margin: 2%;
 
 }
 h1{
@@ -249,19 +248,13 @@ h1{
 
 }
 .about h3{
+    font-size: 1.5em;
     text-align: center;
-    margin-top: -10%;
-    margin-left: 10%;
-    margin-bottom: 5%;
     color: black;
     text-shadow: 5px 5px 5px #78665d;
 }
-.about img{
-
-    border: 5px black ridge;
-    border-radius: 100%;
-}
 .about p{
+    font-size: 1em;
     text-align: justify;
     padding-left: 11%;
     padding-right: 13%;
@@ -326,7 +319,7 @@ margin-bottom:10px;
 border:1px solid #78665d;
 }
 legend {
-color:#b1b1b1;
+color:black;
 font-weight:bold
 }
 label {
@@ -373,6 +366,7 @@ footer div{
     display: flex;
     justify-content: center;
     padding-bottom: 0%;
+    
 
 }
 .social_icons  li{
@@ -594,8 +588,9 @@ footer div{
 .about{
 
     margin-left: 0%;
+    border: 5px groove #78665d;
+    border-radius: 100%;
     background-color: #b8ada6;
-    background-image: url();
     margin-bottom: 20%;
 }
 .about:nth-child(1){
