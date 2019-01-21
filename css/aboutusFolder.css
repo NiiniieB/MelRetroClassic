@@ -310,6 +310,8 @@ vertical-align: middle;
 form {
 background-color:#b8ada6;
 padding:10px;
+position: relative;
+left: 265%; top:60%;
 
 
 }
@@ -317,6 +319,7 @@ fieldset {
 padding:0 20px 20px 20px;
 margin-bottom:10px;
 border:1px solid #78665d;
+
 }
 legend {
 color:black;
@@ -629,6 +632,14 @@ footer div{
     padding-bottom: 5%;
     
 }
+form {
+    background-color:#b8ada6;
+    padding:10px;
+    position: relative;
+    left: 2%; top:auto;
+    
+    
+    }
  /*footer*/
 
  footer div{
