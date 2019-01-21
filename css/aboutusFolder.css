@@ -311,7 +311,7 @@ form {
 background-color:#b8ada6;
 padding:10px;
 position: relative;
-left: 265%; top:60%;
+left: 190%; top:60%;
 
 
 }
@@ -488,7 +488,7 @@ footer div{
 
     .left {
         position: absolute;
-        top: -45%; left: 0%;
+        top: -40%; left: 0%;
         vertical-align: top;
         background: #78665d ;
         display: inline-block;
